@@ -57,7 +57,6 @@ fn schema(props: serde_json::Value, required: &[&str]) -> serde_json::Value {
         "type": "object",
         "properties": props,
         "required": required,
-        "additionalProperties": false,
     })
 }
 
